@@ -228,7 +228,7 @@ ts_log_decompose = residual
 ts_log_decompose.dropna(inplace=True)
 test_stationarity(ts_log_decompose)
 
-#print(ts_log_decompose)
+print(ts_log_decompose)
 
 
 ######################################## FITTING ARIMA MODEL ############################################3
